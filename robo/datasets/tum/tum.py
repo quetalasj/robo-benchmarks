@@ -7,10 +7,12 @@ import wget
 #   sys.stdout.write("\r" + progress_message)
 #   sys.stdout.flush()
 
+
 class TumDataset(Dataset):
     def download(self):
-        url = "http://www.doc.ic.ac.uk/~ahanda/living_room_traj1_frei_png.tar.gz"
-        print(wget.download(url))
+        # url = "http://www.doc.ic.ac.uk/~ahanda/living_room_traj1_frei_png.tar.gz"
+        # print(wget.download(url, out="test/"))
+        pass
 
     def remove(self):
         pass
